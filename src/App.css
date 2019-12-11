@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +20,83 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+ .App {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction:row;
+
+
+ }
+ .box1{
+     width:70%
+ }
+ .box2{
+     width: 20%
+ }
+  button {
+    background-color:blue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+    
+  }
+
+  .nbr-btn-container,.spl-btn-container{
+      width:100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left:25px;
+      
+
+  }
+
+
+  .btns {
+    width: 30%;
+    margin: 1%;
+
+}
+.nbr-btn-container .btns:nth-child(10) {
+    width:60%;
+}
+
+.nbr-btn-container .btns:nth-child(10) button {
+    width:100%;
+    border-radius:45px;
+}
+
+
+
+
+  
+.opr-btn-container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:5%;
+
+
+   
+
+}
+
+.opr-btn-container .btns {
+    margin:3%;
+}
+
+.opr-btn-container .btns button {
+    background-color:#006666;
+}
+
+.nbr-btn-container .btns button {
+    background-color:#204060;
+}
+
+.spl-btn-container .btns button {
+    background-color:#006bb3;
+}
